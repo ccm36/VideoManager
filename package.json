@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "api": "node ratingsAPI.js"
+    "api": "node ratingsAPI.js",
+    "format": "prettier --write --single-quote --print-width=120 --parser=flow --tab-width=2 \"js/**/*.{js,jsx}\""
   },
   "dependencies": {
     "axios": "0.16.1",
@@ -58,11 +59,11 @@
     "react-test-renderer": "15.5.4",
     "webpack-dev-server": "2.4.5"
   },
-  "name": "complete-intro-to-react",
+  "name": "VideoManager",
   "version": "3.0.0",
-  "description": "A Complete Intro to React workshop",
+  "description": "VideoManager",
   "main": "server.js",
-  "repository": "git@github.com:btholt/complete-intro-to-react.git",
-  "author": "Brian Holt <btholt@gmail.com>",
+  "repository": "git@github.com:ccm36/videoManager.git",
+  "author": "ccm36 <cameron.c.malloy@gmail.com>",
   "license": "MIT"
 }
