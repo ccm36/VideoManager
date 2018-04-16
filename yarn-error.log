@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/CameronMalloy/.nvm/versions/node/v8.9.1/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js lint
+  /Users/CameronMalloy/.nvm/versions/node/v8.9.1/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js test
 
 PATH: 
   /Users/CameronMalloy/.nvm/versions/node/v8.9.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/CameronMalloy/.rvm/bin
@@ -20,7 +20,13 @@ npm manifest:
       "build": "webpack",
       "format": "prettier --write --single-quote --print-width=120 --parser=flow --tab-width=2 \"js/**/*.{js,jsx}\"",
       "lint": "eslint **/*.{js,jsx} --quiet",
-      "watch": "webpack --watch"
+      "watch": "webpack --watch",
+      "dev": "webpack-dev-server",
+      "test": "jest",
+      "test:update": "jest -u"
+    },
+    "jest": {
+      "snapshotSerializers": ["jest-serializer-enzyme"]
     },
     "dependencies": {
       "axios": "0.16.1",
@@ -7242,7 +7248,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c eslint **/*.{js,jsx} --quiet
+  Arguments: -c jest
   Directory: /Users/CameronMalloy/tech/projects/videoManager
   Output:
   
