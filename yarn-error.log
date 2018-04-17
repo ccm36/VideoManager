@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/CameronMalloy/.nvm/versions/node/v8.9.1/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js dev
+  /Users/CameronMalloy/.nvm/versions/node/v8.9.1/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js flow
 
 PATH: 
   /Users/CameronMalloy/.nvm/versions/node/v8.9.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/CameronMalloy/.rvm/bin
@@ -7247,9 +7247,9 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 1
+  Exit code: 2
   Command: sh
-  Arguments: -c webpack-dev-server
+  Arguments: -c /Users/CameronMalloy/tech/projects/videoManager/node_modules/.bin/flow
   Directory: /Users/CameronMalloy/tech/projects/videoManager
   Output:
   
