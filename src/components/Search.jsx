@@ -1,3 +1,5 @@
+// @flow
+
 import React, { Component } from 'react';
 import ShowCard from './ShowCard';
 import preload from '../../data.json';
@@ -7,7 +9,7 @@ class Search extends Component {
     searchTerm: ''
   };
 
-  handleSearchTermChange = e => {
+  handleSearchTermChange = (e: SyntheticKeyboardEvent & { target: HTMLInputElement }) => {
     this.setState({ searchTerm: e.target.value });
   };
 
