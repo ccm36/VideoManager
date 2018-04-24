@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/CameronMalloy/.nvm/versions/node/v8.9.1/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js flow
+  /Users/CameronMalloy/.nvm/versions/node/v8.9.1/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js test:update
 
 PATH: 
   /Users/CameronMalloy/.nvm/versions/node/v8.9.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/CameronMalloy/.rvm/bin
@@ -7247,9 +7247,9 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 2
+  Exit code: 1
   Command: sh
-  Arguments: -c /Users/CameronMalloy/tech/projects/videoManager/node_modules/.bin/flow
+  Arguments: -c jest -u
   Directory: /Users/CameronMalloy/tech/projects/videoManager
   Output:
   
